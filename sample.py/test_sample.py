@@ -14,6 +14,11 @@ class FirstTest(unittest.TestCase):
         self.assertEqual(Fizzbuzz(20), 'Buzz')
         self.assertEqual(Fizzbuzz(25), 'Buzz')
         self.assertEqual(Fizzbuzz(35), 'Buzz')
+        self.assertEqual(Fizzbuzz(3), 'Fizz')
+        self.assertEqual(Fizzbuzz(6), 'Fizz')
+        self.assertEqual(Fizzbuzz(9), 'Fizz')
+        self.assertEqual(Fizzbuzz(18), 'Fizz')
+        self.assertEqual(Fizzbuzz(21), 'Fizz')
         
 if __name__ == '__main__':
     unittest.main()
